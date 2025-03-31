@@ -1,5 +1,4 @@
 import { Mail, Github, Linkedin, Twitter, ExternalLink, ArrowUp } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -21,13 +20,12 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Column 2 - Quick Links */}
           <div className="flex flex-col space-y-3">
             <h3 className="text-lg font-semibold text-text-light mb-2">Quick Links</h3>
-            <Link to="/#about" className="text-text-muted hover:text-highlight transition-colors text-sm">About</Link>
-            <Link to="/#projects" className="text-text-muted hover:text-highlight transition-colors text-sm">Projects</Link>
-            <Link to="/#skills" className="text-text-muted hover:text-highlight transition-colors text-sm">Skills</Link>
-            <Link to="/#contact" className="text-text-muted hover:text-highlight transition-colors text-sm">Contact</Link>
+            <a href="/#about" className="text-text-muted hover:text-highlight transition-colors text-sm">Home</a>
+            <a href="/#projects" className="text-text-muted hover:text-highlight transition-colors text-sm">Projects</a>
+            <a href="/#skills" className="text-text-muted hover:text-highlight transition-colors text-sm">Skills</a>
+            <a href="/#contact" className="text-text-muted hover:text-highlight transition-colors text-sm">Contact</a>
             <a 
               href="/CV_Mateo_Kodra.pdf"
               target="_blank" 
