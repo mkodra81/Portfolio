@@ -124,15 +124,6 @@ const Projects = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-20 text-center">
-          <Button
-            variant="outline"
-            className="border-highlight text-highlight hover:bg-highlight/10"
-          >
-            View More Projects <ArrowRight size={16} className="ml-2" />
-          </Button>
-        </div>
       </div>
     </section>
   );
