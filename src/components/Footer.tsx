@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Column 1 - About */}
           <div className="flex flex-col space-y-4">
-            <h3 className="text-xl font-semibold text-highlight mb-2">John Doe</h3>
+            <h3 className="text-xl font-semibold text-highlight mb-2">Mateo Kodra</h3>
             <p className="text-text-muted text-sm max-w-xs">
               Full Stack Developer specializing in creating exceptional digital experiences with a focus on performance and user experience.
             </p>
