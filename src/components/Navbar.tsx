@@ -77,7 +77,7 @@ const Navbar = () => {
           className="border-highlight text-highlight hover:bg-highlight hover:text-darker transition-colors"
           asChild
         >
-          <a href="/resume.pdf" download="John_Doe_Resume.pdf" className="flex items-center gap-2">
+          <a href="/CV_Mateo_Kodra.pdf" download="CV_Mateo_Kodra.pdf" className="flex items-center gap-2">
             <Download size={16} />
             Resume
           </a>

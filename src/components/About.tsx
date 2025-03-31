@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Download } from "lucide-react";
 
 const About = () => {
   return (
@@ -59,13 +60,16 @@ const About = () => {
               </div>
             </div>
 
-            <div className="pt-4">
-              <Button
-                variant="outline"
-                className="border-highlight text-highlight hover:bg-highlight/10"
+            <div className="pt-4 flex gap-4">
+
+              <a
+                href="/CV_Mateo_Kodra.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-highlight text-highlight px-4 py-2 rounded-md hover:bg-highlight hover:text-white transition"
               >
-                View Resume <ArrowRight size={16} className="ml-2" />
-              </Button>
+                View Resume
+              </a>
             </div>
           </div>
 
