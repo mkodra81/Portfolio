@@ -37,10 +37,10 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         "HTML5, CSS3, JavaScript (ES6+)",
-        "React.js, Next.js",
+        "React.js",
         "TypeScript",
-        "Tailwind CSS, SCSS",
-        "Redux, Context API"
+        "Bootstrap, Tailwind CSS",
+        "Context API"
       ]
     },
     {
@@ -48,9 +48,7 @@ const Skills = () => {
       title: "Backend",
       skills: [
         "Node.js, Express",
-        "Python, Django",
-        "RESTful APIs",
-        "GraphQL",
+        "CRUD APIs",
         "Authentication & Authorization"
       ]
     },
@@ -59,10 +57,6 @@ const Skills = () => {
       title: "Database",
       skills: [
         "MongoDB, Mongoose",
-        "PostgreSQL, MySQL",
-        "Firebase Firestore",
-        "Data modeling",
-        "Redis"
       ]
     },
     {
@@ -70,10 +64,9 @@ const Skills = () => {
       title: "Tools & Others",
       skills: [
         "Git, GitHub",
-        "Docker, CI/CD",
-        "Agile Methodologies",
-        "Jest, Testing Library",
-        "AWS, Netlify, Vercel"
+        "Postman",
+        "VS Code",
+        "Render, Netlify, Vercel"
       ]
     }
   ];

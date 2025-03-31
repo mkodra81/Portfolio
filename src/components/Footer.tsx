@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { Mail, Github, Linkedin, Twitter, ExternalLink, ArrowUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -31,8 +29,9 @@ const Footer = () => {
             <Link to="/#skills" className="text-text-muted hover:text-highlight transition-colors text-sm">Skills</Link>
             <Link to="/#contact" className="text-text-muted hover:text-highlight transition-colors text-sm">Contact</Link>
             <a 
-              href="/resume.pdf" 
-              download="John_Doe_Resume.pdf"
+              href="/CV_Mateo_Kodra.pdf"
+              target="_blank" 
+              download="CV_Mateo_Kodra.pdf"
               className="text-text-muted hover:text-highlight transition-colors text-sm flex items-center gap-1"
             >
               Resume <ExternalLink size={12} />
@@ -44,34 +43,26 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-text-light mb-2">Connect</h3>
             <div className="flex flex-col space-y-3">
               <a
-                href="mailto:contact@example.com"
+                href="#contact"
                 className="text-text-muted hover:text-highlight transition-colors text-sm flex items-center gap-2"
               >
-                <Mail size={16} /> contact@example.com
+                <Mail size={16} /> kodramateo4@gamil.com
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/mkodra81"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-muted hover:text-highlight transition-colors text-sm flex items-center gap-2"
               >
-                <Github size={16} /> github.com/johndoe
+                <Github size={16} /> github.com/mkodra81
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mateo-kodra-b47109351"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-muted hover:text-highlight transition-colors text-sm flex items-center gap-2"
               >
-                <Linkedin size={16} /> linkedin.com/in/johndoe
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-text-muted hover:text-highlight transition-colors text-sm flex items-center gap-2"
-              >
-                <Twitter size={16} /> @johndoe
+                <Linkedin size={16} /> linkedin.com/in/mateo-kodra-b47109351 
               </a>
             </div>
           </div>
@@ -80,7 +71,7 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-secondary/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-text-muted text-sm">
-            © {new Date().getFullYear()} John Doe. All Rights Reserved.
+            © {new Date().getFullYear()} Mateo Kodra. All Rights Reserved.
           </p>
           <div className="flex mt-4 md:mt-0">
             <button 

@@ -1,9 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Download } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +26,10 @@ const Navbar = () => {
       )}
     >
       <div className="container-custom flex items-center justify-between">
-        <Link to="/" className="text-highlight text-2xl font-bold">Portfolio</Link>
+
+        <a href="/" className="text-2xl font-bold text-highlight">
+          Mateo Kodra
+        </a>
         
         {/* Mobile menu button */}
         <button 
@@ -41,10 +42,11 @@ const Navbar = () => {
         
         {/* Desktop navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
-          <Link to="/#about" className="nav-link">About</Link>
-          <Link to="/#projects" className="nav-link">Projects</Link>
-          <Link to="/#skills" className="nav-link">Skills</Link>
-          <Link to="/#contact" className="nav-link">Contact</Link>
+          <a href="#about" className="nav-link">About</a>
+          <a href="#projects" className="nav-link">Projects</a>
+          <a href="#skills" className="nav-link">Skills</a>
+          <a href="#contact" className="nav-link">Contact</a>
+
           <Button 
             variant="outline" 
             size="sm" 
@@ -66,11 +68,10 @@ const Navbar = () => {
         transform transition-transform duration-300 ease-in-out
         ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
       `}>
-        <Link to="/#about" className="nav-link" onClick={toggleMenu}>About</Link>
-        <Link to="/#projects" className="nav-link" onClick={toggleMenu}>Projects</Link>
-        <Link to="/#skills" className="nav-link" onClick={toggleMenu}>Skills</Link>
-        <Link to="/#contact" className="nav-link" onClick={toggleMenu}>Contact</Link>
-        <Button 
+          <a href="#about" className="nav-link">About</a>
+          <a href="#projects" className="nav-link">Projects</a>
+          <a href="#skills" className="nav-link">Skills</a>
+          <a href="#contact" className="nav-link">Contact</a>        <Button 
           variant="outline" 
           size="sm" 
           className="border-highlight text-highlight hover:bg-highlight hover:text-darker transition-colors"
