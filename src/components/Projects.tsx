@@ -5,6 +5,23 @@ import { ArrowRight, Github, Link } from "lucide-react";
 // Project data
 const projects = [
   {
+    title: "ShopEase",
+    description:
+      "An e-commerce platform designed to provide a seamless shopping experience. Features include product browsing, user authentication, shopping cart, payment gateway integration, and order tracking.",
+    tags: [
+      "React",
+      "Typescript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwindcss",
+    ],
+    imageUrl: "/ShopEase-sc.png",
+    githubUrl: "https://github.com/mkodra81/ShopEase",
+    liveUrl: "https://shop-ease-omega-steel.vercel.app/",
+    status: true,
+  },
+  {
     title: "MovieStream",
     description:
       "A full-featured movie streaming platform built with React, Node.js, and MongoDB. Features include product catalog, user authentication and user's reviews.",
@@ -12,17 +29,6 @@ const projects = [
     imageUrl: "/MovieStream-sc.png",
     githubUrl: "https://github.com/mkodra81/Moviestream",
     liveUrl: "https://movieprojectmern.netlify.app/",
-    status: true,
-  },
-  {
-    title: "ShopEase",
-    description:
-      "An e-commerce platform designed to provide a seamless shopping experience. Features include product browsing, user authentication, shopping cart, payment gateway integration, and order tracking.",
-    tags: ["React", "Typescript", "Node.js", "Express", "MongoDB", "Tailwindcss"],
-    imageUrl:
-      "/ShopEase-sc.png",
-    githubUrl: "https://github.com/mkodra81/ShopEase",
-    liveUrl: "https://shop-ease-omega-steel.vercel.app/",
     status: false,
   },
 ];
