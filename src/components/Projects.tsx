@@ -7,7 +7,7 @@ const projects = [
   {
     title: "MovieStream",
     description:
-      "A full-featured movie streaming platform built with React, Node.js, and MongoDB. Features include product catalog, user authentication, shopping cart, payment processing, and order management.",
+      "A full-featured movie streaming platform built with React, Node.js, and MongoDB. Features include product catalog, user authentication and user's reviews.",
     tags: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
     imageUrl: "/MovieStream-sc.png",
     githubUrl: "https://github.com/mkodra81/Moviestream",
@@ -18,11 +18,11 @@ const projects = [
     title: "ShopEase",
     description:
       "An e-commerce platform designed to provide a seamless shopping experience. Features include product browsing, user authentication, shopping cart, payment gateway integration, and order tracking.",
-    tags: ["React", "Redux", "Node.js", "Express", "MongoDB"],
+    tags: ["React", "Typescript", "Node.js", "Express", "MongoDB", "Tailwindcss"],
     imageUrl:
       "/ShopEase-sc.png",
-    githubUrl: "https://github.com/mkodra81/EaseShop",
-    liveUrl: "",
+    githubUrl: "https://github.com/mkodra81/ShopEase",
+    liveUrl: "https://shop-ease-omega-steel.vercel.app/",
     status: false,
   },
 ];
