@@ -18,7 +18,7 @@ const projects = [
     ],
     imageUrl: "/ShopEase-sc.png",
     githubUrl: "https://github.com/mkodra81/ShopEase",
-    liveUrl: "https://shop-ease-omega-steel.vercel.app/",
+    liveUrl: "https://shop-ease-delta-amber.vercel.app/",
     status: true,
   },
   {
